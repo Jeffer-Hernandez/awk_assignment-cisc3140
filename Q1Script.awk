@@ -20,7 +20,10 @@ while(getline != 0)
 r = a/j
 
 #print result as output
-printf( "The ratio of adult to juvenile squirrels is %.2f ", r)
+printf( "The ratio of adult to juvenile squirrels is %.2f \n", r)
 
 }
+
+
+
 

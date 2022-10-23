@@ -15,15 +15,12 @@ do {
     if ($15 ~ /Ground Plane/) g++;
 }while(getline != 0)
 
+#get probability percentage
+above_freq = a/NR *100
+ground_freq = g/NR *100
 
-
-#get ratio
-# abov_freq = a/NR 
-# ground_freq = g/NR 
-print a
-print g
 #print result as output
-printf( "The probability of seeing a squirrel on the ground is about %.3f \n", g)
-printf( "The probability of seeing a squirrel on the ground is about %.3f \n", a)
+printf( "On any given day, you have a %.2f percent chance of seeing a squirrel on the ground.\n", ground_freq)
+printf( "Whereas you have a %.2f percent chance of seeing a squirrel in a tree.\n", above_freq)
 
 }

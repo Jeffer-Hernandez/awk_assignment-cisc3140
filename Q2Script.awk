@@ -22,5 +22,4 @@ ground_freq = g/NR *100
 #print result as output
 printf( "On any given day, you have a %.2f percent chance of seeing a squirrel on the ground.\n", ground_freq)
 printf( "Whereas you have a %.2f percent chance of seeing a squirrel in a tree.\n", above_freq)
-
 }

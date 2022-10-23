@@ -61,5 +61,4 @@ for (i = 0; i<=4; i++){
     else if (activity_val[i] == least)
         printf( "The LEAST common activity displayed by squirrels in central park is %s .\n", acitivity_name[i]);
 }
-
 }
